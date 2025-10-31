@@ -3,14 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 #container {
   width: 960px;
+  height: 960px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.child {
-  flex: 60px;
+.square {
+  flex: initial;
   border: 1px solid black;
-  aspect-ratio: 1;
 }
